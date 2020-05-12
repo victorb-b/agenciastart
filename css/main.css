@@ -1,0 +1,792 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    padding: 0; border: 0; margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    height: 80px;
+    background-color: #e1bcb6;
+    padding: 3% 4%;
+}
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/oie_transparent\ \(4\).png);
+    font-size: 0;
+}
+.btn-movel{
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, #e1bcb6, #e1bcb6);
+    color: black;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-movel-fechar{
+    float: right;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 2em;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.menu ul{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.menu ul li{
+    padding: 1.5%;
+}
+
+.menu ul li a{
+    padding: 1.5%;
+    font-size: 2.0em;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    border: solid 1px #fff;
+    border-radius: 5px;
+    background-color: #e1bcb6;
+    color: #000000;
+    font-weight: bold;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.banner{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    background-image: url(../img/marketing-digital-para-pequenas-empresas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.btn-banner{
+    background-color: #e1bcb6;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin: 2% 0 2%;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.3;
+}
+
+.btn-banner:hover{
+    opacity: 0.9;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.banner p {
+    width: 100%;
+    padding: 4%;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto Slab";
+}
+
+.banner p:hover{
+    color: #e1bcb6;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.banner img{
+    margin-left: 40%;
+}
+
+.produtos{
+    width: 100%;
+    float: left;
+}
+.produtos h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.produto1{
+    
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.produto1 p{
+    position: absolute;
+    top: 100px;
+    right: 30%;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+    
+}
+
+.produto2{
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.produto2 p{
+    position: absolute;
+    top: 145px;
+    right: 25%;
+    left: 140px;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+    
+}
+
+.produto3{
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.produto3 p{
+    position: absolute;
+    top: 90px;
+    right: 22%;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+}
+
+.produto4{
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 200px;
+}
+
+
+.produto4 p{
+    position: absolute;
+    top: 145px;
+    right: 22%;
+    left: 130px;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+    
+}
+
+.produtos h2 span:hover{
+    border-bottom: 3px solid #e1bcb6;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.produto1 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.produto1 p:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+
+.produto2 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.produto2 p:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+
+.produto3 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.produto3 p:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+
+.produto4 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.produto4 p:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+
+.blog {
+    width: 100%;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+.blog h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 40px;
+    
+}
+
+.blogueiro{
+    width: 95%;
+    float: left;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    
+}
+
+.blogueiro h3{
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.blogueiro p{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-blog{
+    
+    background-color: #e1bcb6;
+    color: #ffffff!important;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.blog h2 span:hover{
+    border-bottom: 3px solid #e1bcb6;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.blogueiro img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.blogueiro h3:hover{
+    color: #cccccc;
+    cursor: pointer;
+    transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.btn-blog:hover{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+.insta{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.insta img{
+    margin-left: 6px;
+}
+
+.insta img:hover{
+    opacity: 0.7;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.insta a{
+    color: black;
+}
+
+.contato{
+    width: 100%;
+    float: left;
+    background-color: #444343;
+    margin-top: 20px;
+}
+
+.contato h3{
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+.contato p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.contato input{
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.contato button{
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    background-color: #363636;
+    color: #fff;
+
+}
+
+.contato span:hover{
+    border-bottom: 3px #e1bcb6 solid;
+    cursor: pointer;
+    color: #e1bcb6;
+    transition-property: all;
+	transition-duration: 0.2s;
+}
+
+.contato button:hover{
+    background-color: #e1bcb6;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #292828;
+}
+
+footer img{
+    margin-left: 47%;
+    margin-top: 10px;
+}
+
+footer h4{
+    color: #fff;
+    text-align: center;
+    
+}
+
+.redes{
+    width: 40%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 210px;
+}
+
+.redes ul{
+    width: 100%;
+}
+
+.redes ul li{
+    float: left;
+}
+
+.redes ul li a{
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.6;
+}
+
+footer p{
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+footer h4:hover{
+    cursor: pointer;
+    color: #e1bcb6;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.redes ul li a:hover{
+    color: #e1bcb6;
+    transition-duration: 0.3s;
+    transition-property: all;
+    opacity: 1;
+}
+
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #e1bcb6;
+    transition-property: all;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+footer img:hover{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+.btn-movel, .btn-movel-fechar{
+    display: none;
+}
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    height: 90px;
+    background-color: #e1bcb6;
+    padding: 0 1%;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/logo-100.png);
+    font-size: 0;
+    
+}
+
+
+.menu{
+    width: auto;
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: relative;
+    display: block;
+    float: right;
+    margin-right: 750px;
+    background-color: #e1bcb6;
+    margin-top: 35px;
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+}
+
+.menu ul li{
+    padding: 0;
+    
+    float: left;
+}
+
+.menu ul li a{
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.menu ul li a:hover{
+    color: #000000;
+    border: 1px solid #e1bcb6;
+    opacity: 0.8;
+}
+
+.banner{
+    width: 100%;
+    float: left;
+    background-image: url(../img/produto3.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.btn-banner{
+    width: 600px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-left: 30%;
+}
+
+.banner p{
+    font-size: 3em;
+    margin: 20px;
+}
+
+.banner img{
+    margin-left: 48%;
+    margin-top: 40px;
+}
+
+.produtos{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.produto1{
+    width: 48%;
+    margin: 10px;
+}
+
+.produto1 img{
+    max-height: 300px;
+}
+
+.produto2 img{
+    max-height: 300px;
+}
+
+.produto3 img{
+    max-height: 300px;
+}
+
+.produto4 img{
+    max-height: 300px;
+}
+
+
+.produto1 p{
+    position: absolute;
+    top: 120px;
+    right: 33%;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+    
+}
+
+.produto2{
+    width: 48%;
+    margin: 10px;
+}
+
+
+.produto2 p{
+    position: absolute;
+    top: 145px;
+    right: 25%;
+    left: 140px;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+    
+}
+
+.produto3{
+    position: relative;
+    width: 48%;
+    margin: 10px;
+}
+
+
+.produto3 p{
+    position: absolute;
+    top: 120px;
+    right: 32%;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+}
+
+.produto4{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 200px;
+    width: 48%;
+}
+
+
+.produto4 p{
+    position: absolute;
+    top: 125px;
+    right: 10%;
+    left: 130px;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #e1bcb6;
+    border-radius: 5px;
+    
+}
+
+.blogueiro{
+    width: 32%;
+}
+
+.insta{
+    width: 100%;
+}
+
+.insta img{
+    margin: 10px;
+    margin-left: 80px;
+    padding: 0;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.insta img:hover{
+    opacity: 0.7;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.contato-1{
+    width: 45%;
+    float: left;
+    margin-left: 80px;
+}
+
+.contato-2{
+    width: 45%;
+    float: left;
+}
+
+.contato-2 input{
+    margin-top: 90px;
+    width: 80%;
+}
+
+.contato-2 button{
+    width: 80%;
+}
+    
+.rodape img{
+    margin-left: 48.50%;
+}
+
+.rodape h4, p{
+    text-align: center;
+}
+
+.redes{
+    
+
+}
+
+.redes ul{
+    width: 200px;
+    float: right;
+    margin-right: 25px;
+    
+}
+
+.redes ul li{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.redes ul li a{
+    display: flex;
+    flex-direction: row;
+}
+
+
+}

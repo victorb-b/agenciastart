@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Start</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="Styles/icons/css/all.css">
+   <script type="text/javascript" src="Scripts/jquery.mask.js"></script>
+</head>
+<body>
+    <header class="cabecalho" id="topo">
+        <a href="#">
+            <h1 class="logo"> Start </h1>
+        </a>
+        <button class="btn-movel">
+            <i class="fas fa-bars"> </i>
+        </button>
+    <nav class="menu">
+        <a href="#"  title="Fechar" class="btn-movel-fechar">
+            <i class="fas fa-times-circle"></i>
+        </a>
+
+        <ul>
+            <li><a href="#"> Sobre Nós</a></li>
+            <li><a href="#"> Projetos</a></li>
+            <li><a href="#"> Blog</a></li>
+            <li><a href="#"> Consultoria</a></li>
+            <li><a href="#"> Contato</a></li>
+        </ul>
+    </nav>
+    <!-- script menu -->
+    <script>
+    $(".btn-movel").click(function() {
+
+        $(".menu").show();
+        $(".btn-movel").hide();
+
+    });
+
+    $(".btn-movel-fechar").click(function() {
+
+        $(".menu").hide();
+        $(".btn-movel").show();
+    });
+
+</script>
+
+
+
+</header>
+
+    <div class="banner">
+        <img src="./img/logo-100.png" alt="">
+        <p>AGÊNCIA START</p>
+        <div>
+            <button class="btn-banner">MARQUE SUA CONSULTORIA</button>
+        </div>
+    </div>
+
+    <section class="produtos">
+        <h2><span>O QUE FAZEMOS</span></h2>
+
+        <div class="produto1">
+            <img src="./img/produto1.jpg" alt="" width="1000px" max-height="300px">
+            <p>BRANDING E DESIGN</p>
+        </div>
+
+        <div class="produto2">
+            <img src="./img/produto2.jpg" alt="" width="1000px" max-height="300px">
+            <p>DIAGNÓSTICO E CONSULTORIA DIGITAL</p>
+        </div>
+
+        <div class="produto3">
+            <img src="./img/produto3.jpg" alt="" width="1000px" max-height="300px">
+            <p>PLANEJAMENTO ESTRATÉGICO</p>
+        </div>
+
+        <div class="produto4">
+            <img src="./img/produto4.jpg" alt="" width="1000px" max-height="300px">
+            <p>ASSESSORIA E MARKETING DE INFLUÊNCIA</p>
+        </div>
+
+    </section>
+
+    <section class="blog">
+        <h2><span>BLOG</span></h2>
+
+        <div class="blogueiro">
+            <img src="./img/blog.jpg" alt="">
+            <h3>Os Benefícios do <strong>Marketing </strong>Digital para sua empresa.</h3>
+            <p>O mercado de trabalho está sempre em constante mudança e as competências que ele exige também. Por isso, o LinkedIn, após uma análise, divulgou as</p>
+            <button class="btn-blog"><a>Leia Mais</a></button>
+        </div>
+
+        <div class="blogueiro">
+            <img src="./img/blog2.png" alt="">
+            <h3>HABILIDADES QUE TORNAM A GESTÃO FEMININA ÚNICA</h3>
+            <p>O mercado de trabalho está sempre em constante mudança e as competências que ele exige também. Por isso, o LinkedIn, após uma análise, divulgou as</p>
+            <button class="btn-blog"><a>Leia Mais</a></button>
+        </div>
+
+        <div class="blogueiro">
+            <img src="./img/blog3.png" alt="">
+            <h3>HABILIDADES QUE TORNAM A GESTÃO FEMININA ÚNICA</h3>
+            <p>O mercado de trabalho está sempre em constante mudança e as competências que ele exige também. Por isso, o LinkedIn, após uma análise, divulgou as</p>
+            <button class="btn-blog"><a>Leia Mais</a></button>
+        </div>
+
+        <div class="insta">
+            <h2><span><a href="https://www.instagram.com/somos.start/" target="blank">INSTAGRAM @AGENCIASTART</a></span></h2>
+            <div class="insta-img">
+            <a href="https://www.instagram.com/p/B5jBJLzFkrA/" target="blank"><img src="./img/insta1.png" alt="" width="150px" height="150px">
+            <a href="https://www.instagram.com/p/BxN9ItTHTxc/" target="blank"><img src="./img/insta2.png" alt="" width="150px" height="150px"></a>
+            <a href="https://www.instagram.com/p/BxLp7NxHHIx/" target="blank"><img src="./img/insta3.png" alt="" width="150px" height="150px"></a>
+            <a href="https://www.instagram.com/p/BxLnIV1HR3W/" target="blank"><img src="./img/insta4.png" alt="" width="150px" height="150px"></a>
+            <a href="https://www.instagram.com/p/BxLi9YVnazl/" target="blank"><img src="./img/insta7.png" alt="" width="150px" height="150px"></a>
+            <a href="https://www.instagram.com/p/B5kYuTBlgow/" target="blank"><img src="./img/insta6.png" alt="" width="150px" height="150px"></a>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contato">
+        <div class="contato-1">
+        <h3><span>QUER SABER MAIS SOBRE BRANDING?</span></h3>
+        <p>A Start tem o propósito de compartilhar informação e conhecimento através de conexões e conteúdo relevante, tanto no ambiente online quanto no offline, e para isso, criamos, planejamos e produzimos experiências criativas.</p>
+    </div>
+        <div class="contato-2">
+        <input placeholder="Email" type="text">
+        <button>Assine a Newsletter</button>
+    </div>
+    </section>
+
+
+    <footer class="rodape">
+       <a href="#"> <img src="./img/oie_transparent (4).png" alt=""> </a>
+       <h4><STRONG>AGÊNCIA START</STRONG></h4>
+        <div class="redes">
+            <ul>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
+        </div>
+        <p><a href="#topo">Topo <i class="fa fa-angle-up"></i></a></p>
+    </footer>
+
+</body>
+</html>            
